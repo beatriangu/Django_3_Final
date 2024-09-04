@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mi Chat{% endblock %}</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-oBqDVmMz4fnFO9DdI06zIQ71wZQjAtopwBFTCh9rS4fjRaO4jI2k7pM6ANi4xW5C" 
+          crossorigin="anonymous">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="{% url 'index' %}">Mi Chat</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'index' %}">Inicio</a>
+                    </li>
+                    <!-- Aquí puedes agregar más enlaces según sea necesario -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        {% block content %}{% endblock %}
+    </main>
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>&copy; 2024 Mi Chat</p>
+    </footer>
+    
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+            integrity="sha384-oBqDVmMz4fnFO9DdI06zIQ71wZQjAtopwBFTCh9rS4fjRaO4jI2k7pM6ANi4xW5C" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" 
+            integrity="sha384-24sVNY9bLq6q3qUgN/oABVLLG+ZwCZp2MzjTxE8r4w5VxMkN4q4bz9S8E17pX1zR" 
+            crossorigin="anonymous"></script>
+    
+    <!-- jQuery (opcional, si necesitas) -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>
+

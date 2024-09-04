@@ -1,0 +1,37 @@
+<!-- chat/templates/chat/index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Rooms</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            flex: 1;
+        }
+        .btn-primary {
+            width: 100%;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <h1 class="mb-4">Chat Rooms</h1>
+            {% for room in rooms %}
+                <a class="btn btn-primary mb-2" href="{% url 'room' room %}">{{ room }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
