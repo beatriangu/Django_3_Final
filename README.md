@@ -6,6 +6,7 @@
 
 
 
+![Descripción de la imagen](https://github.com/beatriangu/Django_3_Final/blob/main/Screenshot%20from%202024-09-07%2015-09-41.png)
 
 
 
