@@ -5,12 +5,12 @@ To develop a connection/disconnection system using AJAX to handle user authentic
 <p align="left">
   <img src="https://github.com/beatriangu/Django_3_Final/blob/main/Screenshot%20from%202024-10-16%2014-00-12.png" width="300"/>
 </p>
-<p align="left">
-  <img src="https://github.com/beatriangu/Django_3_Final/blob/main/Screenshot%20from%202024-10-16%2014-00-44.png" width="300"/>
-</p>
 
 **ex01** "Basic Chat"
 3 different chatrooms  stored in a database using a suitable model. You should implement a fully functional chat system that uses jQuery and Websockets for communication (no AJAX). 
+<p align="left">
+  <img src="https://github.com/beatriangu/Django_3_Final/blob/main/Screenshot%20from%202024-10-16%2014-00-44.png" width="300"/>
+</p>
 
 **ex02** "History"
 Last three messages posted in that chatroom, displayed from top to bottom in chronological order (oldest to newest). The implementation must use jQuery for the frontend and Websockets for server communication.
