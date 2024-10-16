@@ -2,6 +2,11 @@
 **ex00** 
 To develop a connection/disconnection system using AJAX to handle user authentication without refreshing the page by  using a POST request. 
 
+
+<p align="left">
+  <img src="https://github.com/beatriangu/Libft/blob/main/100.png?raw=true" alt="100.png" width="150"/>
+</p>
+
 **ex01** "Basic Chat"
 3 different chatrooms  stored in a database using a suitable model. You should implement a fully functional chat system that uses jQuery and Websockets for communication (no AJAX). 
 
