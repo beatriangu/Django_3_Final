@@ -2,7 +2,7 @@
 **ex00** 
 To develop a connection/disconnection system using AJAX to handle user authentication without refreshing the page by  using a POST request. 
 
-
+https://github.com/beatriangu/Django_3_Final/blob/main/Screenshot%20from%202024-10-16%2014-00-12.png?raw=true
 <p align="left">
   <img src="https://github.com/beatriangu/Libft/blob/main/100.png?raw=true" alt="100.png" width="150"/>
 </p>
