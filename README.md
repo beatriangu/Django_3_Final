@@ -21,13 +21,15 @@ Last three messages posted in that chatroom, displayed from top to bottom in chr
 
 **ex03** "Userlist"
 A dynamic user list that update sin real-time.Using jQuery for the frontend and Websockets for server communication.
+<p align="left">
+  <img src="https://github.com/beatriangu/Django_3_Final/blob/main/Screenshot%20from%202024-09-07%2015-09-41.png" width="300"/>
+</p>
+
+
 
 **ex04** "Scroll"Fixed-size container for the messages and the scrollbar must always be positioned at the bottom in order to see just the last three fisrt.
 
 ⚠️ with daphne!!
-
-![Descripción de la imagen](https://github.com/beatriangu/Django_3_Final/blob/main/Screenshot%20from%202024-09-07%2015-09-41.png)
-
 
 
 <p align="left">
