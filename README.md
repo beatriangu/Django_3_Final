@@ -29,7 +29,7 @@ A dynamic user list that update sin real-time.Using jQuery for the frontend and 
 
 **ex04** "Scroll"Fixed-size container for the messages and the scrollbar must always be positioned at the bottom in order to see just the last three fisrt.
 
-⚠️ with daphne!!
+⚠️ "With Daphne, you'll find her in first place under your installed apps settings. She is the Chief of Communications!"
 
 
 <p align="left">
